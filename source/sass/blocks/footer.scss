@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 50px;
+}
+
+.footer__text {
+  color: #735f6e;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $main-color;
+
+  a {
+    color: $main-color;
+    text-decoration: none;
+  }
+}
+
+.footer__dev {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #735f6e;
+  font-size: 14px;
+}

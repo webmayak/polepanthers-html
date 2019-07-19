@@ -1,7 +1,23 @@
 @font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesanspro.woff2") format("woff2"), url("../fonts/sourcesanspro.woff") format("woff");
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesansprobold.woff2") format("woff2"), url("../fonts/sourcesansprobold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/sourcesansprolight.woff2") format("woff2"), url("../fonts/sourcesansprolight.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }

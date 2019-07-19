@@ -1,0 +1,17 @@
+.header {
+  border-bottom: 1px solid $main-color;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.header__logo {
+  display: inline-block;
+}
+
+.header__logo-text {
+  text-align: right;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: $main-color;
+}

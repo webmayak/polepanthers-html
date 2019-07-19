@@ -1,4 +1,12 @@
 @import "fonts.scss";
 @import "normalize.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import "vars.scss";
 @import "global.scss";
+@import "blocks/header.scss";
+@import "blocks/main-menu.scss";
+@import "blocks/home-info.scss";
+@import "blocks/home-links.scss";
+@import "blocks/subscription.scss";
+@import "blocks/footer.scss";
+@import "blocks/social.scss";

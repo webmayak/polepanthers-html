@@ -1,0 +1,31 @@
+.home-links {
+  padding: 50px 0;
+  border-bottom: 1px solid $main-color;
+}
+
+.home-links__item {
+  display: flex;
+  height: 418px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url("../img/home-link.jpg");
+}
+
+.home-links__link {
+  margin: auto;
+  min-width: 155px;
+  padding: 4px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $main-color;
+  color: #ffffff;
+  transition: 0.25s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
