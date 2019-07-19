@@ -1,0 +1,30 @@
+.info-card {
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.info-card__img {
+  margin-bottom: 30px;
+  border: 1px solid $main-color;
+}
+
+.info-card__title {
+  font-size: 26px;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.info-card__text {
+  color: $text-color-lighter;
+  margin-bottom: 30px;
+}
+
+.info-card__link {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .info-card__title {
+    font-size: 22px;
+  }
+}

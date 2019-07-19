@@ -3,7 +3,7 @@
 }
 
 .footer__text {
-  color: #735f6e;
+  color: $text-color-lighter;
   font-size: 14px;
   font-weight: 300;
   text-align: center;
@@ -19,7 +19,7 @@
 .footer__dev {
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #735f6e;
+  color: $text-color-lighter;
   font-size: 14px;
 }
 

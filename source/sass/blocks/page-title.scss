@@ -1,0 +1,15 @@
+.page-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 300;
+  text-transform: uppercase;
+  word-break: break-word;
+  margin: 0 0 30px;
+}
+
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 26px;
+  }
+}
