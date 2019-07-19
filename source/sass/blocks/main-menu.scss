@@ -63,3 +63,48 @@
     color: $main-color;
   }
 }
+
+@media (max-width: 991px) {
+  .main-nav--closed .main-menu {
+    display: none;
+  }
+
+  .main-menu__item {
+    width: 100%;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-top: 5px;
+
+    > a {
+      font-size: 14px;
+    }
+  }
+
+  .main-menu__submenu {
+    display: block;
+    position: relative;
+    left: 0;
+    min-width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    padding-left: 10px;
+  }
+
+  .main-menu__submenu-item {
+    margin-top: 3px;
+  }
+
+  .main-nav:not(.main-nav--no-js) {
+    .main-menu {
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+      border: 1px solid $main-color;
+      padding: 10px 15px 15px;
+    }
+  }
+}

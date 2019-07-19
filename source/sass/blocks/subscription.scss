@@ -54,3 +54,29 @@
     opacity: 0.8;
   }
 }
+
+@media (max-width: 1199px) {
+  .subscription {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .subscription__submit {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .subscription__field {
+    width: 200%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .subscription__submit {
+    width: 100%;
+    padding: 14px;
+  }
+}
