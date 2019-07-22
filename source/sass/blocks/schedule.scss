@@ -1,0 +1,70 @@
+.schedule {
+  padding-bottom: 35px;
+}
+
+.schedule__week-title {
+  font-size: 18px;
+  line-height: 1;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.schedule__table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-weight: 300;
+  color: $text-color-lighter;
+  margin-bottom: 30px;
+
+  td {
+    min-width: 140px;
+    padding: 5px 5px 5px 0;
+  }
+}
+
+.schedule__date {
+  color: #000000;
+  font-weight: normal;
+  text-align: left;
+}
+
+.schedule__link {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .schedule__table td {
+    min-width: 125px;
+  }
+}
+
+@media (max-width: 575px) {
+  .schedule__week-title {
+    text-align: center;
+  }
+
+  .schedule__table {
+    display: block;
+
+    caption,
+    tbody,
+    tr,
+    td {
+      display: block;
+    }
+
+    caption {
+      text-align: center;
+    }
+
+    td {
+      padding-right: 0;
+      text-align: center;
+
+      &:first-child {
+        font-weight: normal;
+        font-size: 18px;
+      }
+    }
+  }
+}

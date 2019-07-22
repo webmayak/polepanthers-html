@@ -1,0 +1,38 @@
+.price-card {
+  padding: 0 0 30px;
+  background-color: #ffffff;
+  border: 1px solid $main-color;
+  font-weight: 300;
+  text-align: center;
+
+  p {
+    margin: 5px;
+
+    a {
+      color: $main-color;
+      text-decoration: none;
+      font-weight: normal;
+    }
+  }
+}
+
+.price-card__title {
+  padding: 10px;
+  background-color: $main-color;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.price-card__price {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.price-card__link {
+  margin-top: 40px;
+  font-size: 18px;
+}

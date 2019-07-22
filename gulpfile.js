@@ -18,13 +18,9 @@ var del = require("del");
 var htmlmin = require("gulp-htmlmin");
 var uglify = require("gulp-uglify");
 var pipeline = require("readable-stream").pipeline;
-var ghPages = require("gh-pages");
-var path = require("path");
+var ghpages = require("gh-pages");
 
-function deploy(cb) {
-  ghPages.publish(path.join(process.cwd(), 'build'), cb);
-}
-exports.deploy = deploy;
+ghpages.publish("build")
 
 gulp.task("clean", function () {
   return del("build");
