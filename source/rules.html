@@ -19,7 +19,7 @@
     <header class="header">
       <div class="row align-items-center">
         <div class="col-lg-3 col-md-4 col-sm-5">
-          <a class="header__logo">
+          <a class="header__logo" href="/">
             <img class="header__logo-img" src="img/logo.svg" alt="POLE PANTHERS">
             <div class="header__logo-text">Студия танца и спорта на пилоне</div>
           </a>
@@ -28,8 +28,8 @@
           <nav class="main-nav main-nav--opened main-nav--no-js">
             <button class="main-nav__toggle" type="button"><span class="visually-hidden">Показать/скрыть меню</span></button>
             <ul class="main-menu ul-reset">
-              <li class="main-menu__item main-menu__item--active">
-                <a>Главная</a>
+              <li class="main-menu__item">
+                <a href="/">Главная</a>
               </li>
               <li class="main-menu__item">
                 <a href="beginners.html">Новичкам</a>
@@ -40,7 +40,7 @@
               <li class="main-menu__item">
                 <a href="schedule.html">Расписание и цены</a>
               </li>
-              <li class="main-menu__item">
+              <li class="main-menu__item main-menu__item--active">
                 <a href="">О нас</a>
                 <ul class="main-menu__submenu ul-reset">
                   <li class="main-menu__submenu-item">
@@ -49,8 +49,8 @@
                   <li class="main-menu__submenu-item">
                     <a href="">Галерея</a>
                   </li>
-                  <li class="main-menu__submenu-item">
-                    <a href="rules.html">Правила студии</a>
+                  <li class="main-menu__submenu-item main-menu__submenu-item--active">
+                    <a>Правила студии</a>
                   </li>
                   <li class="main-menu__submenu-item">
                     <a href="">События</a>
@@ -76,41 +76,25 @@
 
     <main>
 
-      <div class="home-info">
-        <img class="home-info__img" src="img/home-info.jpg" alt="">
+      <div class="rules">
+        <h1 class="rules__title page-title">Правила студии</h1>
         <div class="row">
-          <div class="col-lg-6">
-            <div class="home-info__slogan">ДРАЙВ! СИЛА! КРАСОТА! Это все мы! <br>Одна из лучших студий танца и спорта на пилоне в Хабаровске!</div>
+          <div class="col-sm-6">
+            <img class="rules__img" src="img/rules.jpg" alt="Правила студии">
           </div>
-          <div class="col-lg-6">
-            <div class="home-info__text">Индивидуальный подход к обучению. Небольшие группы. Приходите к нам за порцией отличного настроения, за идеальной фигурой, самыми дерзкими и сексуальными танцами, за спортом и невероятными элементами на пилоне!</div>
-            <a href="schedule.html" class="home-info__link btn">Расписание тренировок</a>
+          <div class="col-sm-6">
+            <div class="rules__descr">Мы счастливы, что ты теперь с нами! Чтобы извлечь максимум из посещения нашей студии пожалуйста ознакомьтесь с простыми правилами:</div>
           </div>
         </div>
-      </div>
-
-      <div class="home-links">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="beginners.html">С чего начать?</a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="directions.html">Направления</a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="">Магазин</a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="">О нас</a>
-            </div>
-          </div>
+        <div class="rules__text">
+          <ul>
+            <li>Обязательна предварительная запись на занятия в общей группе в ВА, куда вас обязательно добавять после приобретения абонемента на занятия. Если этого не произошло по каким-то причинам пожалуйста скажите тренеру или напишите нам любым удобным способом.</li>
+            <li>Не используйте лосьоны, крема или масла для тела минимум чем за 24 часа до занятия. Это может сделать ваш пилон ооочень скользким.</li>
+            <li>Не забывайте свою форму для занятий. Одевайтесь удобно и согласно рекомендациям. В случае если вы забыли шорты или топ, обратитесь к тренеру. У нас всегда есть чистая запасная форма.</li>
+            <li>Будьте аккуратны и слушайте себя и свое тело. Сообщите тренеру перед началом занятия о возможных травмах или недомогании. В случае чего на ресепшене всегда есть аптечка со всем необходимым.</li>
+            <li>Не опаздывайте на занятие более чем на 15 минут. В случае долгого опоздания вы не можете быть допущены к тренировке и ваше занятие считается использованным.</li>
+            <li>Относитесь с уважением к ученицам и тренерам. Неуважительное отношение будет предупреждено и в случае повторения вы не будете допущены к занятиям.</li>
+          </ul>
         </div>
       </div>
 

@@ -62,6 +62,10 @@
   &:hover > a {
     color: $main-color;
   }
+
+  &--active {
+    color: $main-color;
+  }
 }
 
 @media (max-width: 991px) {

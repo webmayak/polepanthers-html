@@ -1,0 +1,40 @@
+.trainer-card {
+  margin-bottom: 30px;
+}
+
+.trainer-card__img {
+  border: 1px solid $main-color;
+}
+
+.trainer-card__title {
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.trainer-card__text {
+  font-size: 18px;
+  color: $text-color-lighter;
+}
+
+@media (max-width: 991px) {
+  .trainer-card__img {
+    margin-bottom: 20px;
+  }
+
+  .trainer-card__title {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .trainer-card__title {
+    font-size: 22px;
+  }
+
+  .trainer-card__text {
+    font-size: 16px;
+  }
+}

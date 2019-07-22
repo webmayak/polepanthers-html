@@ -19,7 +19,7 @@
     <header class="header">
       <div class="row align-items-center">
         <div class="col-lg-3 col-md-4 col-sm-5">
-          <a class="header__logo">
+          <a class="header__logo" href="/">
             <img class="header__logo-img" src="img/logo.svg" alt="POLE PANTHERS">
             <div class="header__logo-text">Студия танца и спорта на пилоне</div>
           </a>
@@ -28,8 +28,8 @@
           <nav class="main-nav main-nav--opened main-nav--no-js">
             <button class="main-nav__toggle" type="button"><span class="visually-hidden">Показать/скрыть меню</span></button>
             <ul class="main-menu ul-reset">
-              <li class="main-menu__item main-menu__item--active">
-                <a>Главная</a>
+              <li class="main-menu__item">
+                <a href="/">Главная</a>
               </li>
               <li class="main-menu__item">
                 <a href="beginners.html">Новичкам</a>
@@ -40,11 +40,11 @@
               <li class="main-menu__item">
                 <a href="schedule.html">Расписание и цены</a>
               </li>
-              <li class="main-menu__item">
+              <li class="main-menu__item main-menu__item--active">
                 <a href="">О нас</a>
                 <ul class="main-menu__submenu ul-reset">
-                  <li class="main-menu__submenu-item">
-                    <a href="trainers.html">Тренеры</a>
+                  <li class="main-menu__submenu-item main-menu__submenu-item--active">
+                    <a>Тренеры</a>
                   </li>
                   <li class="main-menu__submenu-item">
                     <a href="">Галерея</a>
@@ -76,39 +76,49 @@
 
     <main>
 
-      <div class="home-info">
-        <img class="home-info__img" src="img/home-info.jpg" alt="">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="home-info__slogan">ДРАЙВ! СИЛА! КРАСОТА! Это все мы! <br>Одна из лучших студий танца и спорта на пилоне в Хабаровске!</div>
-          </div>
-          <div class="col-lg-6">
-            <div class="home-info__text">Индивидуальный подход к обучению. Небольшие группы. Приходите к нам за порцией отличного настроения, за идеальной фигурой, самыми дерзкими и сексуальными танцами, за спортом и невероятными элементами на пилоне!</div>
-            <a href="schedule.html" class="home-info__link btn">Расписание тренировок</a>
+      <div class="trainers">
+        <h1 class="trainers__title page-title">Тренеры</h1>
+        <div class="trainer-card">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img class="trainer-card__img" src="https://via.placeholder.com/540x400.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="trainer-card__title">Виктория</div>
+              <div class="trainer-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eos velit totam excepturi, libero aliquam necessitatibus eum, enim ex, dolores, quidem distinctio laudantium autem fuga minima! Eaque alias vero praesentium ipsam autem nesciunt sapiente quasi, ex sint culpa esse ea, illo dicta odit similique dolore, tempore cumque corporis accusantium maxime! Eum nemo doloribus alias, quos, facere sunt debitis quibusdam corporis beatae voluptas nulla praesentium. Provident suscipit laborum aspernatur, deserunt magnam?</div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="home-links">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="beginners.html">С чего начать?</a>
+        <div class="trainer-card">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img class="trainer-card__img" src="https://via.placeholder.com/540x400.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="trainer-card__title">Татьяна</div>
+              <div class="trainer-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eos velit totam excepturi, libero aliquam necessitatibus eum, enim ex, dolores, quidem distinctio laudantium autem fuga minima! Eaque alias vero praesentium ipsam autem nesciunt sapiente quasi, ex sint culpa esse ea, illo dicta odit similique dolore, tempore cumque corporis accusantium maxime! Eum nemo doloribus alias, quos, facere sunt debitis quibusdam corporis beatae voluptas nulla praesentium. Provident suscipit laborum aspernatur, deserunt magnam?</div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="directions.html">Направления</a>
+        </div>
+        <div class="trainer-card">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img class="trainer-card__img" src="https://via.placeholder.com/540x400.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="trainer-card__title">Наталья</div>
+              <div class="trainer-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eos velit totam excepturi, libero aliquam necessitatibus eum, enim ex, dolores, quidem distinctio laudantium autem fuga minima! Eaque alias vero praesentium ipsam autem nesciunt sapiente quasi, ex sint culpa esse ea, illo dicta odit similique dolore, tempore cumque corporis accusantium maxime! Eum nemo doloribus alias, quos, facere sunt debitis quibusdam corporis beatae voluptas nulla praesentium. Provident suscipit laborum aspernatur, deserunt magnam?</div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="">Магазин</a>
+        </div>
+        <div class="trainer-card">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img class="trainer-card__img" src="https://via.placeholder.com/540x400.jpg" alt="">
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="home-links__item">
-              <a class="home-links__link btn" href="">О нас</a>
+            <div class="col-lg-6">
+              <div class="trainer-card__title">Елена</div>
+              <div class="trainer-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eos velit totam excepturi, libero aliquam necessitatibus eum, enim ex, dolores, quidem distinctio laudantium autem fuga minima! Eaque alias vero praesentium ipsam autem nesciunt sapiente quasi, ex sint culpa esse ea, illo dicta odit similique dolore, tempore cumque corporis accusantium maxime! Eum nemo doloribus alias, quos, facere sunt debitis quibusdam corporis beatae voluptas nulla praesentium. Provident suscipit laborum aspernatur, deserunt magnam?</div>
             </div>
           </div>
         </div>
