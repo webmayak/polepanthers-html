@@ -30,8 +30,7 @@ gulp.task("clean", function () {
 gulp.task("copy", function () {
   return gulp.src([
     "source/fonts/**/*",
-    "source/img/**/*",
-    "source/*.html"
+    "source/img/**/*"
   ], {
     base: "source"
   })
@@ -96,9 +95,6 @@ gulp.task("html", function () {
     .pipe(posthtml([
       include()
     ]))
-    .pipe(htmlmin({
-      collapseWhitespace: true
-    }))
     .pipe(gulp.dest("build"));
 });
 
@@ -123,5 +119,5 @@ gulp.task("refresh", function (done) {
   done();
 });
 
-gulp.task("build", gulp.series("clean", "copy", "css", "scripts"));
+gulp.task("build", gulp.series("clean", "copy", "css", "scripts", "html"));
 gulp.task("start", gulp.series("build", "server"));
